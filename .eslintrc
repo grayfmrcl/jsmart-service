@@ -1,6 +1,6 @@
 {
   "extends": ["airbnb", "prettier"],
-  "plugins": ["prettier"],
+  "plugins": ["prettier", "mocha", "node"],
   "rules": {
     "prettier/prettier": ["error"]
   }
