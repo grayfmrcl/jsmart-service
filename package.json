@@ -1,15 +1,18 @@
 {
-  "name": "jsmart-service",
+  "name": "jscell-service",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node ./bin/www",
+    "dev": "NODE_ENV=development nodemon ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "debug": "^4.1.1",
     "express": "^4.16.4",
     "express-enrouten": "^1.3.0"
   },
